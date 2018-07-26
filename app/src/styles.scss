@@ -1,0 +1,105 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+.google{
+        width: 26px;
+    height: 28px;
+    margin-top: 1%;
+}
+.twitter{
+        width: 26px;
+    height: 28px;
+    margin-top: 1%;
+}
+.facebook{
+            width: 37px;
+    height: 38px;
+    margin-top: 0%;
+}
+.logo{
+        width: 64px;
+    height: 50px;
+    margin-top: 2%;
+}
+// .toolbar1{
+//          background-color: #3949AB;
+// }
+ .toolbar1{
+    background: #3c4ca9;
+    color: rgba(255,255,255,.87);
+}
+.toolbar2{
+   margin-top: -3%;
+    background: #3c4ca9;
+    color: rgba(255,255,255,.87);
+}
+.outer{
+        background-color: #3F51B5;
+}
+// .rent{
+//        margin-left: 48%;
+//     margin-top: 8%;
+//     height: 39%; 
+// }
+.dining{
+    margin-right: 10px;
+    width: 21%;
+  
+    margin-top: -8%;
+   
+    height: 127%;
+   
+    box-sizing: border-box;
+}
+.castle{
+ margin-right: 10px;
+    width: 21%;
+  
+    margin-top: -8%;
+   
+    height: 127%;
+   
+    box-sizing: border-box;
+}
+.hall{
+ margin-right: 10px;
+    width: 21%;
+  
+    margin-top: -8%;
+   
+    height: 127%;
+   
+    box-sizing: border-box;
+}
+.house{
+ margin-right: 10px;
+    width: 21%;
+  
+    margin-top: -8%;
+   
+    height: 127%;
+   
+    box-sizing: border-box;
+}
+// .input{
+//         width: 495px;
+//         margin-left: 48%;     margin-top: 8%;     height: 39%;     bottom: 257%;    right: 324px;     top: -13px;
+// }
+// .input{
+//     width: 495px;    background-color: white;     margin-left: -182%;
+// }
+// .text{
+//     margin-top: -88%;
+//     background-color: white;
+//     height: 15%;
+//     width: 500px;
+// }
+.text{
+    margin-top: 8%;
+     height: 55%;   
+       bottom: 257%;
+       background-color:white;
+       width:500px;
+}
