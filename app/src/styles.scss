@@ -4,19 +4,28 @@
 @import "nDefaults.scss";
 
 .google{
-        width: 26px;
-    height: 28px;
+         width: 26px;
+    height: 24px;
     margin-top: 1%;
 }
 .twitter{
-        width: 26px;
-    height: 28px;
+            width: 28px;
+    height: 25px;
     margin-top: 1%;
 }
 .facebook{
-            width: 37px;
-    height: 38px;
+      width: 37px;
+    height: 27px;
+
     margin-top: 0%;
+}
+.message{
+   width: 28px;
+    height: 25px
+}
+.phone{
+   width: 28px;
+    height: 25px
 }
 .logo{
         width: 64px;
@@ -43,7 +52,25 @@
 //     margin-top: 8%;
 //     height: 39%; 
 // }
-.dining{
+.dining,.castle,.hall,.house{
+    margin-right: 10px;
+   height: 75%;
+    width: 102%;
+    margin-top: -12%;
+    
+   
+    box-sizing: border-box;
+}
+
+
+.text{
+    margin-top: 8%;
+     height: 60%;   
+       bottom: 257%;
+       background-color:white;
+       width:500px;
+}
+.card{
     margin-right: 10px;
     width: 21%;
   
@@ -51,55 +78,39 @@
    
     height: 127%;
    
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
-.castle{
- margin-right: 10px;
-    width: 21%;
-  
-    margin-top: -8%;
-   
-    height: 127%;
-   
-    box-sizing: border-box;
+.img-fluid{
+    width:178px;
 }
-.hall{
- margin-right: 10px;
-    width: 21%;
-  
-    margin-top: -8%;
-   
-    height: 127%;
-   
-    box-sizing: border-box;
+.bg{
+       background-color: #3F51B5;
 }
-.house{
- margin-right: 10px;
-    width: 21%;
-  
-    margin-top: -8%;
-   
-    height: 127%;
-   
-    box-sizing: border-box;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
 }
-// .input{
-//         width: 495px;
-//         margin-left: 48%;     margin-top: 8%;     height: 39%;     bottom: 257%;    right: 324px;     top: -13px;
-// }
-// .input{
-//     width: 495px;    background-color: white;     margin-left: -182%;
-// }
-// .text{
-//     margin-top: -88%;
-//     background-color: white;
-//     height: 15%;
-//     width: 500px;
-// }
-.text{
-    margin-top: 8%;
-     height: 55%;   
-       bottom: 257%;
-       background-color:white;
-       width:500px;
+.example-card{
+    width:400px;
 }
+.img-card{
+       height: 243%;
+    width: 16.5%;
+}
+.top1xs{
+    width:50%;
+}
+.outercol{
+    width:100%;
+}
+

@@ -3,18 +3,20 @@
     <div fxLayout="row" fxFlex="100" fxLayoutGap="50" fxLayoutAlign="start" fxShow="true" fxHide="false">
       <mat-toolbar color="primary" style=" background-color: #3c4ca9;" class="toolbar1">
         <div fxLayout="column" fxFlex="50" fxLayoutAlign="start start" fxShow="true" fxHide="false">
-          <div fxLayout="row" fxFlex="100" fxShow="true" fxHide="false">
+          <div fxLayout="row" fxFlex="100" fxShow="true" fxHide="false" ngClass.xs="top1xs">
             <button mat-button="">Login</button>
             <button mat-button="">Register</button>
           </div>
         </div>
         <div fxLayout="column" fxFlex="50" fxLayoutAlign="end end" fxShow="true" fxHide="false">
-          <div fxLayout="row" fxFlex="100" fxLayoutAlign="end end" fxShow="true" fxHide="false">
+          <div fxLayout="row" fxFlex="100" fxLayoutAlign="end end" fxShow="true" fxHide="false" fxHide.xs="true">
+            <img imgSrc="Web/Icons/phone-64.png " class="phone">
             <button mat-button="">9630654856</button>
+            <img imgSrc="Web/Icons/message-64.png " class="message">
             <button mat-button="">hello@roost.com</button>
-            <img imgSrc="Web/Icons/google logo.png " class="google">
-            <img imgSrc="Web/Icons/Twitter logo.png " class="twitter">
-            <img imgSrc="Web/Icons/fb logo.png " class="facebook">
+            <img imgSrc="Web/Icons/google-plus-64.png " class="google">
+            <img imgSrc="Web/Icons/twitter-64.png " class="twitter">
+            <img imgSrc="Web/Icons/facebook-64.png " class="facebook">
           </div>
         </div>
       </mat-toolbar>
@@ -27,7 +29,7 @@
             <p>ROOST</p>
           </div>
         </div>
-        <div fxLayout="column" fxFlex="50" fxLayoutAlign="end end" fxShow="true" fxHide="false">
+        <div fxLayout="column" fxFlex="50" fxLayoutAlign="end end" fxShow="true" fxHide="false" fxHide.xs="true">
           <div fxLayout="row" fxFlex="100" fxLayoutAlign="end end" fxShow="true" fxHide="false">
             <button mat-button="">HOME</button>
             <button mat-button="">LISTINGS</button>
@@ -40,11 +42,11 @@
         </div>
       </mat-toolbar>
     </div>
-    <div fxLayout="row" fxFlex="50" fxLayoutAlign="start" fxShow="true" fxHide="false">
+    <div fxLayout="row" fxFlex="50" fxLayoutAlign="start" fxShow="true" fxHide="false" fxHide.xs="true">
       <div fxLayout="column" fxFlex="50" fxLayoutAlign="start" fxShow="true" fxHide="false">
         <div fxLayout="row" fxFlex="50" fxLayoutAlign="start" fxShow="true" fxHide="false">
-          <button mat-raised-button="" style=" margin-left: 59%;     margin-top: 18%;     height: 55%;     bottom: 257%;" class="rent" color="accent">RENT</button>
-          <mat-form-field style=" margin-top: 18%;padding-right:450px;width:800px; height: 55%;   bottom: 257%;background-color:white;" class="input">
+          <button mat-raised-button="" style=" margin-left: 59%;     margin-top: 18%;     height: 60%;     bottom: 257%;" class="rent" color="accent">RENT</button>
+          <mat-form-field style=" margin-top: 18%;padding-right:450px;width:800px; height: 60%;   bottom: 257%;background-color:white;" class="input">
             <input matInput="">
           </mat-form-field>
         </div>
@@ -57,13 +59,25 @@
         </div>
       </div>
     </div>
-    <div fxLayout="row" fxFlex="50" fxLayoutGap="10px" fxLayoutAlign="center" fxShow="true" fxHide="false">
-      <img imgSrc="Web/Icons/hall img.jpg" class="hall">
-      <img imgSrc="Web/Icons/house img.jpg" class="house">
-      <img imgSrc="Web/Icons/dining img.jpg" class="dining">
-      <img imgSrc="Web/Icons/castle img.jpg" class="castle">
-      <div fxLayout="row" fxShow="true" fxHide="false"></div>
+    <div fxLayout="row" fxFlex="50" fxLayoutGap="20px" fxLayoutAlign="center center" fxShow="true" fxHide="false" fxLayout.xs="column">
+      <mat-card class="img-card">
+        <img imgSrc="Web/Icons/dining img.jpg" class="dining">
+        <p>Dining Table Set </p>
+      </mat-card>
+      <mat-card class="img-card">
+        <img imgSrc="Web/Icons/hall img.jpg" class="hall">
+        <p>Living Area</p>
+      </mat-card>
+      <mat-card class="img-card">
+        <img imgSrc="Web/Icons/house img.jpg" class="house">
+        <p>A Modern House</p>
+      </mat-card>
+      <mat-card class="img-card">
+        <img imgSrc="Web/Icons/castle img.jpg" class="castle">
+        <p>Tower House</p>
+      </mat-card>
     </div>
+    <div fxLayout="row" style="   background-color: #3F51B5;" class="bg" fxFlex="50" fxLayoutGap="10px" fxLayoutAlign="center" fxShow="true" fxHide="false"></div>
     <div fxLayout="row" fxShow="true" fxHide="false"></div>
   </div>
 </div>
